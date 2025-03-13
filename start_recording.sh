@@ -12,8 +12,8 @@ if [ $# -ne 2 ]; then
 fi
 
 BASE_NAME=$1  # Not used directly, but included for clarity
-TOP_FILE="$HOME/$1"   # TOP camera recording filename
-SIDE_FILE="$HOME/$2"   # SIDE camera recording filename
+SIDE_FILE="$HOME/$1"   # SIDE camera recording filename
+TOP_FILE="$HOME/$2"   # TOP camera recording filename
 
 # Set resolution/framerate for top web camera
 RESOLUTION="320x240"
