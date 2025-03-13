@@ -3,7 +3,7 @@
 # Shell script called to use the ffmpeg library to start recording from
 # the two webcams connected to the RPi
 
-# Last updated 2025-03-06
+# Last updated 2025-03-13
 
 # Ensure two arguments are provided
 if [ $# -ne 2 ]; then
